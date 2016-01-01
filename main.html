@@ -5,6 +5,7 @@
 	<title>DebtList</title>
 
 	<link rel="stylesheet" type="text/css" href="./models/bootstrap-3.3.5-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/main_style.css">
 
 </head>
 <body>
@@ -19,38 +20,48 @@
 	</div>
 
 
-<div id="main-container">
-	<table class="table table-striped">
+<div id=container>
+	<table id="main_table" class="table table-striped">
 		<tr>
-			<th></th>
-			<th></th>
-			<th></th>
+			<th max-width="30%"></th>
+			<th max-width="60%">Name</th>
+			<th min-width="10%"> &#8362;</th>
 		</tr>
 		<tr>
+			<td>
+				<button type="button" class="btn btn-success">+</button>
+				<button type="button" class="btn btn-danger">-</button>
+			</td>
 			<td>Person 1</td>
-			<td>0
-				<td><input type="text"></td>
-			</td>
+			<td>0</td>
 		</tr>
 		<tr>
+			<td>
+				<button type="button" class="btn btn-success">+</button>
+				<button type="button" class="btn btn-danger">-</button>
+			</td>
 			<td>Person 2</td>
-			<td>0
-				<td><input type="text"></td>
-			</td>
+			<td>0</td>
 		</tr>
 		<tr>
+			<td>
+				<button type="button" class="btn btn-success">+</button>
+				<button type="button" class="btn btn-danger">-</button>
+			</td>
 			<td>Person 3</td>
-			<td>0
-				<td><input type="text"></td>
-			</td>
+			<td>0</td>
 		</tr>
 		<tr>
-			<td>Person 4</td>
-			<td>0
-				<td><input type="text"></td>
+			<td>
+				<button type="button" class="btn btn-success">+</button>
+				<button type="button" class="btn btn-danger">-</button>
 			</td>
+			<td>Person 4</td>
+			<td>0</td>
 		</tr>
 	</table>
+
+	<button type="button" class="btn btn-success">ADD</button>
 </div>
 
 </body>
